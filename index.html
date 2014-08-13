@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Basketball 4 Students</title>
+	<link rel="stylesheet" href="styles.css" type="text/css"/>
+</head>
+<body>
+	<div id="headerimg">
+		<img src="">
+	</div>
+	<ul id="menu">
+		<li class="borderlist"><a href="#">HOME</a></li>
+		<li class="borderlist"><a href="#">NEWS</a></li>
+		<li class="borderlist"><a href="#">TUTORIALS</a></li>
+		<li class="borderlist"><a href="#">NBA</a></li>
+		<li class="borderlist"><a href="#">ABOUT</a></li>
+		<li>
+			<form id="search_field" action="search.php">
+				<input type="text" placeholder="Search..." size="20" required>
+				<button type="submit"><img src="/images/search-icon-512.png" width="20" height="20"></button>
+			</form>
+		</li>
+	</ul>
+	<div id="content"><br>
+		<div class="leftwrapper"><br></div>
+		<div class="leftcol">
+			<h1>Recent news</h1><hr size="6px"><br>
+			<div class="content_box">
+				<img src="/images/top1.jpg" width="500" height="242"><br>
+				<a href="#"><h1 class="title">Title of the news</h1></a>
+				<p class="meta">Quan Tran &bull; August 13, 2014</p>
+				<p class="description">Ever wondered how the San Antonio Spurs manage to know exactly what the opposition is doing on offense most of the time? Its all because of their advanced scouting team. Coach Nick has a chat with Pat Zipfel, an NBA advanced scout, about how he does his job, and why its important. Zipfel explains that...<p><br>
+				<p class="continue"><a href="#">Continue reading...</a></p>
+				<hr>
+			</div>
+			<div class="content_box">
+				<img src="images/top1.jpg" width="500" height="242"><br>
+				<a href="#"><h1 class="title">Title of the news</h1></a>
+				<p class="meta">Quan Tran &bull; August 13, 2014</p>
+				<p class="description">Ever wondered how the San Antonio Spurs manage to know exactly what the opposition is doing on offense most of the time? Its all because of their advanced scouting team. Coach Nick has a chat with Pat Zipfel, an NBA advanced scout, about how he does his job, and why its important. Zipfel explains that...<p><br>
+				<p class="continue"><a href="#">Continue reading...</a></p>
+				<hr>
+			</div>
+		</div>
+		<div class="gap"><br></div>
+		<div class="rightcol">
+			<h3>Other articles</h3><hr size="3px"><br>
+			<ul id="otherarticles">
+				<li>
+					<a href="#">
+						<img src="http://img.youtube.com/vi/BFpuoOZHIE0/default.jpg">
+						<p>Testing title...</p>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="http://img.youtube.com/vi/BFpuoOZHIE0/default.jpg">
+						<p>Testing title...</p>
+					</a>
+				</li>
+			</ul>
+			<div class="other_videos" name="a">
+				<h3>Recent youtube videos</h3><br>
+				<p id="clip"><iframe src="http://www.youtube.com/embed/Xv1Gc3GV0xI" width="384" height="234"></iframe></p>
+				<ul id="videolist">
+					<li>
+						<a href="#a" onclick="replace('Xv1Gc3GV0xI')">
+							<img src="http://img.youtube.com/vi/Xv1Gc3GV0xI/default.jpg">
+							<p>Rucker Park Dunk Show: Incredible And Vicious Slams by Jordan Kilganon</p>
+						</a>
+					</li>
+					<li>
+						<a href="#a" onclick="replace('AXBsCRhzJnc')">
+							<img src="http://img.youtube.com/vi/AXBsCRhzJnc/default.jpg">
+							<p>LeBron James 45 points, 15 rebounds and 5 assists vs Celtics game 6 ECF 2012</p>
+						</a>
+					</li>
+					<li>
+						<a href="#a" onclick="replace('q69FMBddlYA')">
+							<img src="http://img.youtube.com/vi/q69FMBddlYA/default.jpg">
+							<p>LeBron James 47 points 12 rebounds 8 assists vs Hawks 2009</p>
+						</a>
+					</li>
+					<li>
+						<a href="#a" onclick="replace('qAElGAIkn4w')">
+							<img src="http://img.youtube.com/vi/qAElGAIkn4w/default.jpg">
+							<p>LeBron James 52 points 10 rebounds 11 assists vs Knicks 2009</p>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="rightwrapper"><br></div>
+	</div>
+	<div id="footer">
+		<div id="nav">
+			<p>
+				<a href="/">Home</a> | 
+				<a href="/">About Us</a> | 
+				<a href="/">Contact</a>
+			</p>
+		</div>
+		<hr size="3px">
+		<div id="copyright">
+			<p>Copyright &copy 2014 - BBall4Students. All rights reserved.</p>
+		</div>
+	</div>
+	<script>
+		function replace(id) {
+			document.getElementById("clip").innerHTML = "<iframe src=\"http://www.youtube.com/embed/" + id + "\" width=\"384\" height=\"234\"></iframe>";
+		}
+	</script>
+</body>
+</html>
