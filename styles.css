@@ -21,6 +21,7 @@ h2 {
 h3 {
 	font-size: 25px;
 	color: #16171A;
+
 }
 
 hr {
@@ -74,8 +75,8 @@ ul#menu li a:hover {
 }
 
 .borderlist {
-	/*border-left: 1px solid #373737;
-	border-right: 1px solid #373737;*/
+	border-left: 1px solid #373737;
+	border-right: 1px solid #373737;
 	list-style-position: inside;
 	background-color: #000000;
 	padding: 11px 0px;
@@ -84,13 +85,18 @@ ul#menu li a:hover {
 
 #search_field {
 	background-color: #3D3D3D;
+	width: 232px;
 	display: inline-block;
 	border-radius: 5px;
+	margin-top: 10px;
+	margin-left: 5px;
+	margin-bottom: 70px;
 }
 
 #search_field img {
 	background-color: #3D3D3D;
 	padding-right: 5px;
+	padding-top: 4px;
 	margin-bottom: -4px;
 }
 
