@@ -115,6 +115,14 @@ input[type=text] {
 	outline: none;
 }
 
+::-webkit-input-placeholder {
+	font-style: italic;
+}
+ 
+::-moz-placeholder {
+	font-style: italic;
+}
+
 #content {
 	background-color: #FFFFFF;
 	border-radius: 0 0 14px 14px;
