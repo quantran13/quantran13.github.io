@@ -136,6 +136,7 @@ input[type=text] {
 }
 
 #content .rightcol {
+	margin-top: 22px;
 	margin-right: 44px;
 	float: left;
 	width: 28%;
