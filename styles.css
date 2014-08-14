@@ -44,7 +44,7 @@ body {
 }
 
 #nav {
-	position: fixed;
+	position: relative;
 	background-color: #0C0C0C;
 	margin: 0 auto;
 	border-bottom-style: solid;
@@ -56,6 +56,7 @@ body {
 }
 
 ul#nav {
+	position: absolute;
 	text-align: center;
 	height: 39px;
 	width: 100%;
