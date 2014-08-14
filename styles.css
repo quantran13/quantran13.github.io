@@ -86,7 +86,7 @@ ul#menu li a:hover {
 	display: inline-block;
 	border-radius: 5px;
 	margin-top: 20px;
-	margin-left: 45px;
+	margin-left: 5px;
 	margin-bottom: 70px;
 }
 
@@ -118,23 +118,27 @@ input[type=text] {
 	border-radius: 0 0 7px 7px;
 }
 
+#content a:hover {
+	color: #000000;
+}
+
 #content .leftcol {
 	float: left;
-	width: 55%;
+	width: 60%;
 	margin-bottom: 100px;
 	margin-left: 55px;
 	margin-right: 22px;
 }
 
-#content a:hover {
-	color: #000000;
-}
-
 #content .rightcol {
-	margin-right: 55px;
+	margin-right: 44px;
 	margin-top: 25px;
 	float: left;
-	width: 33%;
+	width: 28%;
+}
+
+#main {
+	width: 92%;
 }
 
 .content_box {
@@ -145,7 +149,7 @@ input[type=text] {
 }
 
 .content_box img {
-	width: 605px;
+	width: 606px;
 	height: 350px;
 }
 
@@ -233,9 +237,9 @@ ul#videolist li	{
 	border-top-style: dotted;
 	border-top-width: 1px;
 	padding-top: 5px;
-	padding-bottom: 4px;
+	padding-bottom: 6px;
 	text-align: justify;
-	font-size: 16px;
+	font-size: 15px;
 }
 
 #footer {
