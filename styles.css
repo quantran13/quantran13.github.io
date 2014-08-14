@@ -22,7 +22,7 @@ h2 {
 }
 
 hr {
-	background-color: #16171A;
+	background-color: #707070;
 }
 
 body {
@@ -148,13 +148,6 @@ input[type=text] {
 	width: 605px;
 	height: 350px;
 }
-
-/*.content_box hr {
-	width: 605px;
-	height: 0.5px;
-	background-color: #707070;
-	margin-top: 30px;
-}*/
 
 .title {
 	color: #2C2C2C;
