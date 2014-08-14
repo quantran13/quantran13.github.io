@@ -72,7 +72,7 @@ ul#menu li a{
 
 ul#menu li a:hover {
 	color: #FFFFFF;
-	background-color: #FF9100;
+	background-color: #F48500;
 }
 
 .borderlist {
@@ -153,12 +153,14 @@ input[type=text] {
 
 .title {
 	color: #2C2C2C;
-	font-size: 45px;
+	font-size: 31.5px;
+	margin-top: 8px;
 }
 
 .meta {
+	font-style: italic;
 	font-size: 13px;
-	color: #38389E;
+	color: #494949;
 	margin-bottom: 20px;
 }
 
@@ -169,7 +171,7 @@ input[type=text] {
 }
 
 .continue {
-	color: #FF9100;
+	color: #F48500;
 	font-size: 20px;
 	font-style: italic;
 }
@@ -219,7 +221,7 @@ ul#videolist {
 }
 
 #videolist a {
-	color: #0033CC;
+	color: #F48500;
 	display: block;
 }
 
