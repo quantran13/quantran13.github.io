@@ -190,8 +190,8 @@ ul#otherarticles li {
 }
 
 ul#otherarticles li a {
-	color: #001F7A;
-	font-size: 18px;
+	color: #DD6E00;
+	font-size: 17px;
 	display: block;
 }
 
@@ -218,8 +218,8 @@ ul#videolist {
 #videolist img {
 	float: left;
 	margin-right: 5px;
-	width: 60px;
-	height: 45px;
+	width: 46px;
+	height: 35px;
 }
 
 #videolist a {
@@ -235,7 +235,9 @@ ul#videolist li	{
 	border-top-style: dotted;
 	border-top-width: 1px;
 	padding-top: 5px;
-	padding-bottom: 14px;
+	padding-bottom: 4px;
+	text-align: justify;
+	font-size: 16px;
 }
 
 #footer {
