@@ -10,19 +10,15 @@ a {
 }
 
 h1 {
-	font-weight:normal;
+	font-weight: normal;
 	font-size: 25px;
 	color: #16171A;
 }
 
 h2 {
-	font-size: 27px;
-}
-
-h3 {
-	font-size: 25px;
+	font-size: 20px;
 	color: #16171A;
-
+	font-weight: normal;
 }
 
 hr {
@@ -216,6 +212,7 @@ ul#otherarticles li p {
 
 ul#videolist {
 	list-style-type: none;
+	margin-top: 15px;
 }
 
 #videolist img {
@@ -237,8 +234,8 @@ ul#videolist {
 ul#videolist li	{
 	border-top-style: dotted;
 	border-top-width: 1px;
-	padding-top: 10px;
-	margin-top: 13px;
+	padding-top: 5px;
+	padding-bottom: 14px;
 }
 
 #footer {
