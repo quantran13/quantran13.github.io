@@ -184,6 +184,7 @@ input[type=text] {
 	font-size: 16px;
 	color: #494949;
 	text-align: justify;
+	margin-bottom: 10px;
 }
 
 .continue {
@@ -266,7 +267,7 @@ ul#videolist li	{
 }
 
 #footer a {
-	color: #002EB8;
+	color: #16171A;
 }
 
 #footer a:hover {
@@ -276,10 +277,15 @@ ul#videolist li	{
 #bottom_nav {
 	padding-top: 25px;
 	padding-bottom: 25px;
-	font-size: 25px;
+	font-size: 24px;
+}
+
+#footer hr {
+	background-color : #292929;
 }
 
 #copyright {
+	color: #1A1A1A;
 	margin-top: 30px;
-	font-size: 20px;
+	font-size: 19px;
 }
