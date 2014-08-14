@@ -144,6 +144,11 @@ input[type=text] {
 	margin-bottom: 20px;
 }
 
+.content_box img {
+	width: 605px;
+	height: 293px;
+}
+
 .content_box hr {
 	width: 550px;
 	height: 1px;
@@ -171,8 +176,8 @@ input[type=text] {
 }
 
 .continue {
-	color: #F48500;
-	font-size: 20px;
+	color: #DD6E00;
+	font-size: 17px;
 	font-style: italic;
 }
 
@@ -221,7 +226,7 @@ ul#videolist {
 }
 
 #videolist a {
-	color: #F48500;
+	color: #DD6E00;
 	display: block;
 }
 
