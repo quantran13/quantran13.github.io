@@ -194,14 +194,12 @@ input[type=text] {
 
 ul#otherarticles {
 	list-style-type: none;
+	padding-top: 10px;
 }
 
 ul#otherarticles li {
 	margin-top: 5px;
-	padding-top: 5px;
 	overflow: auto;
-	border-top-style: dotted;
-	border-top-width: 1px;
 }
 
 ul#otherarticles li a {
