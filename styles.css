@@ -120,25 +120,12 @@ input[type=text] {
 	overflow: auto;
 }
 
-#content .leftwrapper {
-	float: left;
-	width: 5%;
-}
-
-#content .rightwrapper {
-	float: left;
-	width: 5%;
-}
-
-#content .gap {
-	float: left;
-	width: 2%;;
-}
-
 #content .leftcol {
 	float: left;
 	width: 55%;
 	margin-bottom: 100px;
+	margin-left: 55px;
+	margin-right: 22px;
 }
 
 #content a:hover {
@@ -146,6 +133,7 @@ input[type=text] {
 }
 
 #content .rightcol {
+	margin-right: 55px;
 	margin-top: 25px;
 	float: left;
 	width: 33%;
