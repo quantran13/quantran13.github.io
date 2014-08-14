@@ -132,14 +132,11 @@ input[type=text] {
 #content .leftcol {
 	float: left;
 	width: 60%;
-	margin-bottom: 100px;
-	margin-left: 55px;
-	margin-right: 22px;
+	margin: 20px 22px 100px 55px;
 }
 
 #content .rightcol {
 	margin-right: 44px;
-	margin-top: 25px;
 	float: left;
 	width: 28%;
 }
