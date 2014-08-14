@@ -1,5 +1,5 @@
 * {
-	font-family: "mark regular";
+	font-family: s;
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -228,10 +228,6 @@ ul#videolist {
 	height: 45px;
 }
 
-#videolist p {
-	position: relative;
-}
-
 #videolist a {
 	color: #0033CC;
 	display: block;
@@ -254,7 +250,7 @@ ul#videolist li	{
 	background-color: #F4F4DF;
 	margin: 0 auto;
 	width: 1100px;
-	height: 220px;
+	height: 190px;
 	text-align: center;
 	clear: both;
 }
@@ -274,6 +270,6 @@ ul#videolist li	{
 }
 
 #copyright {
-	margin-top: 40px;
+	margin-top: 30px;
 	font-size: 20px;
 }
