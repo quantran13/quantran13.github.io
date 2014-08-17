@@ -156,12 +156,11 @@ input[type=text] {
 #content .leftcol {
 	float: left;
 	width: 60%;
-	margin: 35px 22px 100px 55px;
+	margin: 35px 22px 150px 55px;
 }
 
 #content .rightcol {
-	margin-top: 44px;
-	margin-right: 44px;
+	margin: 44px 44px 150px 0px;
 	float: left;
 	width: 28%;
 }
