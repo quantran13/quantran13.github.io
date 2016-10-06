@@ -236,6 +236,11 @@ ul#otherarticles li p {
 	position: relative;
 }
 
+#clip {
+    width: 308px;
+    height: 230px;
+}
+
 .other_videos {
 	margin-top: 100px;
 }
